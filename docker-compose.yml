@@ -42,7 +42,8 @@ services:
     command: --interval 60 --cleanup
     environment:
       - WATCHTOWER_TRACE=true
-    # 5분마다 GHCR에서 새 이미지 체크
+      - WATCHTOWER_ROLLING_RESTART=true  # 순차 재시작
+      - WATCHTOWER_TIMEOUT=30s          # 충분한 대기시간
 
 volumes:
   db-data:
