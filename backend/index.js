@@ -20,7 +20,7 @@ const pool = new Pool({
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ 
-    message: 'Backend is running! 🚀',
+    message: 'Backend is running! 🚀 v2.0',
     timestamp: new Date().toISOString()
   });
 });
