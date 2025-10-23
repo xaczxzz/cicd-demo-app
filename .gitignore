@@ -1,2 +1,4 @@
 node_modules
 .env
+token.txt
+sqlite_mcp_server.db
