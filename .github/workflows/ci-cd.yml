@@ -51,3 +51,4 @@ jobs:
         echo "✅ Images pushed to GHCR"
         echo "🔄 Watchtower will auto-deploy in 5 minutes"
 
+  
