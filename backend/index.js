@@ -66,3 +66,4 @@ app.listen(port, () => {
   console.log(`🚀 Backend running on port ${port}`);
   initDB();
 });
+console.log('Updated by GitOps!');
